@@ -192,20 +192,86 @@ RATE_LIMIT_MAX_REQUESTS=100
 
 ## 🚀 Deployment
 
-### Frontend (Vercel)
+### Quick Deploy to Vercel (Frontend)
 
-1. Push your code to GitHub
-2. Import project in Vercel
-3. Set environment variables
-4. Deploy
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/abd12123/Aonji)
 
-### Backend (Railway/Render)
+#### Option 1: Vercel Dashboard (Recommended)
 
-1. Push your code to GitHub
-2. Create new service
-3. Set environment variables
-4. Add MongoDB database
+1. **Push to GitHub** (already done ✓)
+   ```bash
+   git push origin main
+   ```
+
+2. **Import to Vercel**
+   - Go to [vercel.com](https://vercel.com)
+   - Click "New Project"
+   - Import `abd12123/Aonji` repository
+   
+3. **Configure Build Settings**
+   - Framework Preset: **Vite**
+   - Root Directory: `./`
+   - Build Command: `npm run build`
+   - Output Directory: `dist`
+   - Install Command: `npm install`
+
+4. **Add Environment Variables**
+   ```
+   VITE_API_URL=/api
+   VITE_SITE_URL=https://your-project.vercel.app
+   ```
+   
+   > **Note**: Update `VITE_SITE_URL` after first deployment with your actual Vercel URL
+
+5. **Deploy** - Click "Deploy" button
+
+#### Option 2: Vercel CLI
+
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Login to Vercel
+vercel login
+
+# Deploy (from project root)
+vercel
+
+# Deploy to production
+vercel --prod
+```
+
+### Backend Deployment (Required for Full Functionality)
+
+The backend must be deployed separately. Choose one:
+
+#### Railway (Recommended)
+
+1. Go to [railway.app](https://railway.app)
+2. Create new project from GitHub
+3. Select `backend` folder as root directory
+4. Add environment variables (see `backend/.env.example`)
 5. Deploy
+
+#### Render
+
+1. Go to [render.com](https://render.com)
+2. Create new Web Service
+3. Connect GitHub repository
+4. Root Directory: `backend`
+5. Build Command: `npm install && npm run build`
+6. Start Command: `npm start`
+7. Add environment variables
+8. Deploy
+
+#### After Backend Deployment
+
+Update your Vercel environment variables:
+```
+VITE_API_URL=https://your-backend.railway.app/api
+```
+
+Then redeploy the frontend on Vercel.
 
 ### Alternative: Docker
 
@@ -213,6 +279,19 @@ RATE_LIMIT_MAX_REQUESTS=100
 # Build and run with Docker Compose
 docker-compose up -d
 ```
+
+### Post-Deployment Checklist
+
+- [ ] Frontend deployed to Vercel
+- [ ] Backend deployed to Railway/Render
+- [ ] Environment variables configured
+- [ ] Database connected (MongoDB Atlas)
+- [ ] Email service configured
+- [ ] Test contact form
+- [ ] Test newsletter signup
+- [ ] Verify all pages load correctly
+
+For detailed deployment instructions, see [DEPLOYMENT.md](./DEPLOYMENT.md)
 
 ## 📊 Features Breakdown
 

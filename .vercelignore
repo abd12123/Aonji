@@ -1,0 +1,18 @@
+# Exclude backend from Vercel deployment
+backend/
+
+# Exclude development files
+*.log
+.env
+.env.local
+.env.production
+
+# Exclude documentation
+DEPLOYMENT.md
+CONTRIBUTING.md
+QUICKSTART.md
+
+# Exclude Docker files
+Dockerfile*
+docker-compose.yml
+.dockerignore
