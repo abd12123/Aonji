@@ -15,11 +15,11 @@ const Footer = () => {
                 <span className="text-white font-bold text-xl">OS</span>
               </div>
               <span className="font-display font-bold text-xl text-white">
-                Optimal Solutions
+              AONJI
               </span>
             </div>
             <p className="text-sm leading-relaxed">
-              Creating optimal solutions for complex challenges. We transform businesses through innovative technology and strategic thinking.
+              Creating AONJI for complex challenges. We transform businesses through innovative technology and strategic thinking.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-primary-400 dark:hover:text-primary-300 transition-colors">
@@ -128,7 +128,7 @@ const Footer = () => {
         <div className="border-t border-navy-700 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm">
-              © {currentYear} Optimal Solutions. All rights reserved.
+              © {currentYear} AONJI. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="hover:text-primary-400 transition-colors">

@@ -44,7 +44,7 @@ const Home = () => {
       position: 'CTO',
       company: 'TechCorp',
       rating: 5,
-      text: 'Optimal Solutions transformed our legacy systems into a modern, cloud-based infrastructure. Their expertise and professionalism are unmatched.',
+      text: 'AONJI transformed our legacy systems into a modern, cloud-based infrastructure. Their expertise and professionalism are unmatched.',
       avatar: 'https://i.pravatar.cc/150?img=1',
     },
     {
@@ -52,7 +52,7 @@ const Home = () => {
       position: 'CEO',
       company: 'InnovateLabs',
       rating: 5,
-      text: 'Working with Optimal Solutions was a game-changer for our business. They delivered beyond our expectations and on time.',
+      text: 'Working with AONJI was a game-changer for our business. They delivered beyond our expectations and on time.',
       avatar: 'https://i.pravatar.cc/150?img=13',
     },
     {
@@ -127,7 +127,7 @@ const Home = () => {
             </motion.div>
 
             <h1 className="heading-xl text-white mb-6">
-              Creating Optimal Solutions for{' '}
+              Creating AONJI for{' '}
               <span className="bg-gradient-to-r from-primary-400 to-primary-300 bg-clip-text text-transparent">
                 Complex Challenges
               </span>
@@ -264,7 +264,7 @@ const Home = () => {
               viewport={{ once: true }}
             >
               <h2 className="heading-lg mb-6 text-navy-900 dark:text-gray-100">
-                Why Choose Optimal Solutions?
+                Why Choose AONJI?
               </h2>
               <p className="text-gray-600 dark:text-gray-400 mb-8 text-lg leading-relaxed">
                 We combine deep technical expertise with business acumen to deliver solutions 
@@ -389,7 +389,7 @@ const Home = () => {
               Ready to Transform Your Business?
             </h2>
             <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
-              Let's discuss how we can help you achieve your goals with optimal solutions.
+              Let's discuss how we can help you achieve your goals with AONJI.
             </p>
             <Link to="/contact" className="btn-primary bg-white text-primary-600 hover:bg-gray-100">
               Get Started Today

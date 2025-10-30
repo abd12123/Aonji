@@ -182,7 +182,7 @@ const Services = () => {
   return (
     <>
       <SEO 
-        title="Our Services - Optimal Solutions"
+        title="Our Services - AONJI"
         description="Comprehensive digital transformation, software development, cloud solutions, and more. Discover how we can help your business succeed."
       />
 

@@ -36,3 +36,5 @@ export default mongoose.model<INewsletter>('Newsletter', newsletterSchema)
 
 
 
+
+

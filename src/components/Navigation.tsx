@@ -45,7 +45,7 @@ const Navigation = () => {
             <span className={`font-display font-bold text-xl transition-colors duration-300 ${
               isScrolled ? 'text-navy-900 dark:text-gray-100' : 'text-white'
             }`}>
-              Optimal Solutions
+              AONJI
             </span>
           </Link>
 

@@ -100,8 +100,8 @@ const Contact = () => {
   return (
     <>
       <SEO 
-        title="Contact Us - Optimal Solutions"
-        description="Get in touch with Optimal Solutions. Let's discuss how we can help transform your business."
+        title="Contact Us - AONJI"
+        description="Get in touch with AONJI. Let's discuss how we can help transform your business."
       />
 
       {/* Hero Section */}

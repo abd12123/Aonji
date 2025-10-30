@@ -7,7 +7,7 @@ const NotFound = () => {
   return (
     <>
       <SEO 
-        title="404 - Page Not Found - Optimal Solutions"
+        title="404 - Page Not Found - AONJI"
         description="The page you're looking for doesn't exist."
       />
 
